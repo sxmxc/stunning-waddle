@@ -1,4 +1,8 @@
-figcaption {
+.tag {
+    margin: var(--grid-gap);
+    position: relative;
+}
+.tag figcaption {
   background-color: var(--background-color) !important;
   color: #fff  !important;
   padding: 3px  !important;
