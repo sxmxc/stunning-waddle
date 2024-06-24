@@ -1,5 +1,5 @@
 .tag {
-    margin: var(--grid-gap);
+    margin: 16px;
     position: relative;
 }
 .tag figcaption {
