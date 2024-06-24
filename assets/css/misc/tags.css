@@ -2,7 +2,7 @@
     margin: 16px;
     position: relative;
 }
-.tag figcaption {
+.post-feed .tag figcaption {
   background-color: var(--background-color) !important;
   color: #fff  !important;
   padding: 3px  !important;
