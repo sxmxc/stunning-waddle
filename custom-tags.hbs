@@ -15,15 +15,15 @@
             </header>
             {{/match}}
                 
-                <div class="post-feed gh-feed">
+                <div class="tag-feed gh-feed">
                     <div class="grid-item grid-sizer">
                         
                         {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
                         {{#foreach tags}}
                         <div class="grid-item">
                             <figure class="tag">
-                                <a class="post-link" href="{{url}}">
-                                <img class="post-image"
+                                <a class="tag-link" href="{{url}}">
+                                <img class="tag-image"
                                     srcset="{{img_url feature_image size="s"}} 300w,
                                             {{img_url feature_image size="m"}} 750w,
                                             {{img_url feature_image size="l"}} 1140w,
