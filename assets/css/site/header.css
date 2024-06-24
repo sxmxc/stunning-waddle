@@ -1,0 +1,17 @@
+.gh-head-menu,
+.gh-head-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.009em;
+}
+
+.gh-head {
+    background-color: var(--background-color);
+    height: 100%;
+}
+
+.gh-head-logo img {
+  max-height: 120px;
+  padding-top: 10px;
+}
+

@@ -1,0 +1,12 @@
+.pswp__bg {
+    background: rgba(30, 30, 30, 0.9);
+}
+
+.pswp__caption a{
+    color: var(--background-color);
+}
+
+.pswp__caption__center {
+    color: var(--background-color);
+}
+
