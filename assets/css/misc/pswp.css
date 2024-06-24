@@ -10,7 +10,10 @@
     color: var(--background-color);
 }
 
-.post-caption-title{
-    color: var(--background-color) !important;
+.pswp__caption__center .post-caption-title {
+  color: var(--background-color);
 }
 
+.post-caption-title {
+  color: var(--background-color);
+}
