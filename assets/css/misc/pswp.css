@@ -10,7 +10,7 @@
     color: var(--background-color);
 }
 
-.pswp__caption__center h2{
+.post-caption-title{
     color: var(--background-color) !important;
 }
 
