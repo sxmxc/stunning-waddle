@@ -5,9 +5,17 @@
             {{#post}}
     
             <article class="{{post_class}} gh-article">
-                <header class="post-full-header">
-                    <h1 class="post-full-title">{{title}}</h1>
+                {{#match @page.show_title_and_feature_image}}
+                <header class="gh-article-header gh-canvas">
+                    {{> "feature-image"}}
+                
+                    <h1 class="gh-article-title">{{title}}</h1>
+                
+                    {{#if custom_excerpt}}
+                    <div class="gh-article-excerpt">{{custom_excerpt}}</div>
+                    {{/if}}
                 </header>
+                {{/match}}
                 {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
                 {{#foreach tags}}
                 <a href='{{ url }}'>
