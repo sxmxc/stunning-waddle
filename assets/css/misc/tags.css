@@ -1,6 +1,6 @@
 figcaption {
-  background-color: var(--background-color);
-  color: #fff;
-  padding: 3px;
-  text-align: center;
+  background-color: var(--background-color) !important;
+  color: #fff  !important;
+  padding: 3px  !important;
+  text-align: center  !important;
 }
