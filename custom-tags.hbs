@@ -17,17 +17,16 @@
                     </header>
                 {{/match}}
                 <div class="gh-content gh-canvas grid-item grid-sizer">
-                    {{#get "tags" limit="all"}}{{tags}}{{/get}}
                     
-                    {{!-- {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+                    {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
                     {{#foreach tags}}
                     <div class="grid-item">
-                    <a href='{{ url }}' img='{{ feature_image }}'>
+                    <img href='{{ url }}' src='{{ feature_image }}'>
                         <h2>{{ name }} <small>({{ count.posts }})</small></h2>
-                    </a>
+                    </img>
                     </div>
                     {{/foreach}}
-                    {{/get}} --}}
+                    {{/get}}
                 </div>
             </article>
     
