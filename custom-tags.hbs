@@ -16,12 +16,14 @@
                         {{/if}}
                     </header>
                 {{/match}}
-                <div class="gh-content gh-canvas">
+                <div class="gh-content gh-canvas grid-item grid-sizer">
                     {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
                     {{#foreach tags}}
+                    <div class="grid-item">
                     <a href='{{ url }}'>
                         <h2>{{ name }} <small>({{ count.posts }})</small></h2>
                     </a>
+                    </div>
                     {{/foreach}}
                     {{/get}}
                 </div>
